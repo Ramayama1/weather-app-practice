@@ -1,0 +1,6 @@
+.WeatherTemperature {
+  text-align: center;
+}
+.WeatherTemperature .temp {
+  font-size: 100px;
+}

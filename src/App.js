@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Weather from "./Weather.js";
+import IconTest from "./IconTest.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="App">
+        <Weather defaultCity="Dallas" />
+        <div className="footer">
+          <p>This project was coded by: Mallory Eastburn</p>
+          <div className="container2">
+            <IconTest />
+            <p>
+              Open-sourced on{" "}
+              <a
+                href="https://github.com/Ramayama1/weather-react-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
