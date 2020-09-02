@@ -15,7 +15,7 @@ function App() {
             <p>
               Open-sourced on{" "}
               <a
-                href="https://github.com/Ramayama1/weather-react-app"
+                href="https://github.com/Ramayama1/weather-app-practice"
                 target="_blank"
                 rel="noopener noreferrer"
               >
