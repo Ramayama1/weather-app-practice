@@ -43,7 +43,7 @@
 }
 
 .container {
-  background-image: url(./images/backgroundImage.svg);
+  background-color: #ed145e;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 45px auto;
