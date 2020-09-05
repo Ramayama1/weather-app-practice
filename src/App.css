@@ -41,7 +41,7 @@
 }
 
 .container {
-  background-image: url("https://images.pexels.com/photos/1039106/pexels-photo-1039106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: url(./images/backgroundImage.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 45px auto;
