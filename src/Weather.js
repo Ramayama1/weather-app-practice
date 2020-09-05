@@ -49,7 +49,7 @@ function Weather(props) {
       <div className="Weather card">
         <div className="card-body headerCard">
           <nav className="navbar navbar-light">
-            <h1 className="navbar-brand card-title">Weather App</h1>
+            <h1 className="navbar-brand card-title">Weather</h1>
             <form
               className="form-inline card-subtitle mb-2 text-muted"
               onSubmit={handleSubmit}
