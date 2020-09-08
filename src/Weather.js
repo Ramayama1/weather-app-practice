@@ -84,7 +84,7 @@ function Weather(props) {
           </nav>
         </div>
         <hr />
-        <WeatherInfo data={weather} />
+        <WeatherInfo data={weather} defer />
         <hr />
         <Forecast city={weather.city} defer />
       </div>
