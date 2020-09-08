@@ -65,7 +65,9 @@ function Weather(props) {
                 className="btn btn-outline-light my-2 my-sm-0"
                 type="submit"
               >
-                <i className="fas fa-search"></i>
+                <span role="img" aria-label="question mark">
+                  ﹖
+                </span>
               </button>
 
               <button
@@ -74,7 +76,9 @@ function Weather(props) {
                 value="Location"
                 onClick={getLocation}
               >
-                <i className="fas fa-map-marker-alt"></i>
+                <span role="img" aria-label="location pin">
+                  📍
+                </span>
               </button>
             </form>
           </nav>
