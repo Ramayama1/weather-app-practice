@@ -15,7 +15,9 @@ export default function Forecast(props) {
     return (
       <div className="Forecast row">
         {forecast.list.slice(0, 5).map(function (forecastItem) {
-          return <ForecastItem data={forecastItem} key={forecastItem.dt} />;
+          return (
+            <ForecastItem data={forecastItem} key={forecastItem.dt} defer />
+          );
         })}
       </div>
     );

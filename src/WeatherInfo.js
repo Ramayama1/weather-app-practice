@@ -10,7 +10,7 @@ export default function WeatherInfo(props) {
         <ul>
           <li className="date">
             <em>
-              <FormattedDate date={props.data.date} />
+              <FormattedDate date={props.data.date} defer />
             </em>
           </li>
           <li className="weatherInfoDescriptions">
@@ -29,7 +29,7 @@ export default function WeatherInfo(props) {
         <p className="description">{props.data.description}</p>
       </div>
       <div className="col">
-        <WeatherTemperature fahrenheit={props.data.temp} />
+        <WeatherTemperature fahrenheit={props.data.temp} defer />
       </div>
     </div>
   );

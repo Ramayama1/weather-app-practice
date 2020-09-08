@@ -7,11 +7,11 @@ function App() {
   return (
     <div className="container">
       <div className="App">
-        <Weather defaultCity="Dallas" />
+        <Weather defaultCity="Dallas" defer />
         <div className="footer">
           <p>This project was coded by: Mallory Eastburn</p>
           <div className="container2">
-            <IconTest />
+            <IconTest defer />
             <p>
               Open-sourced on{" "}
               <a
