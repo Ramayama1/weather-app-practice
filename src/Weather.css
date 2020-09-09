@@ -129,3 +129,6 @@ input {
   border-radius: 4px;
   padding: 4px;
 }
+.card-subtitle {
+  margin-right: 0;
+}
