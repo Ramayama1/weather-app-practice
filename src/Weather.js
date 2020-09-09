@@ -65,7 +65,7 @@ function Weather(props) {
                 className="btn btn-outline-light my-2 my-sm-0"
                 type="submit"
               >
-                <span role="img" aria-label="question mark">
+                <span className="btn" role="img" aria-label="question mark">
                   ﹖
                 </span>
               </button>
@@ -76,7 +76,7 @@ function Weather(props) {
                 value="Location"
                 onClick={getLocation}
               >
-                <span role="img" aria-label="location pin">
+                <span className="btn" role="img" aria-label="location pin">
                   📍
                 </span>
               </button>
