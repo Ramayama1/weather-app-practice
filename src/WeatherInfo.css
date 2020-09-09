@@ -22,3 +22,6 @@
 .WeatherInfo .firstCol {
   margin-left: 20px;
 }
+.WeatherInfo img {
+  filter: grayscale(1);
+}

@@ -1,7 +1,14 @@
 .ForecastItem img {
   display: block;
   margin: -20px auto;
+  filter: grayscale(1);
 }
 .ForecastItem {
   text-align: center;
+}
+.ForecastItem .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
